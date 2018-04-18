@@ -49,7 +49,7 @@ h1 {
         padding-left: 10px;
         text-decoration: none;
         border-left: 1px solid;
-        border-color: #777777;
+        border-color: #cccccc;
     }
 
     .portfolio {
@@ -62,7 +62,7 @@ h1 {
         padding-right: 9px;
         text-decoration: none;
         border-left: 1px solid;
-        border-color: #777777;
+        border-color: #cccccc;
     }
 
     .about {
@@ -119,11 +119,6 @@ footer {
     bottom: 60px;
 }
 
-
-
-
-
-
 /* EDIT THIS FOR CONTENT CHANGES */
 body {
     background: url("../images/rockywall.png");
@@ -137,6 +132,29 @@ body {
     margin-top: 135px;
     margin-bottom: 50px;
     border: #dddddd solid 1px;
+    padding-bottom: 20px;
     
+}
 
+h2 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: #4aaaa5;
+    font-weight: bold;
+    margin: 25px 25px;
+}
+.profilepic {
+    height: 200px;
+    width: 200px;
+    margin: 20px 25px 0 25px;
+    object-fit: contain;
+    float: left;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    line-height: 25px;
+    margin: 0 25px 25px 25px;
+    
 }
