@@ -1,29 +1,42 @@
+/* Header stretch across all */
 header {
-    background: salmon;
-    height: 68.8px;
+    background: #ffffff;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 100px ;
     position: fixed;
     top: 0;
     width: 100%;
+    border-bottom: solid 1px;
+    border-color: #cccccc;
 
 }
 
 h1 {
-    position: relative;
-    background: teal;
-    font-size: 60px;
+    box-sizing: border-box;
+    background: #4aaaa5;
+    font-size: 40px;
+    text-align: center;
     font-weight: bold;
     width: 400px;
+    height: 100%;
     float: left;
     margin: 0 0;
+    padding-top: 2%;   
+    position: relative;
     left: 10%;
-
 
 }
 
+/* Navigation Bar */
 .navi {
     position: fixed;
     right: 0;
     top: 0;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 2.5%;
+    padding-right: 80px;
     
 }
 
@@ -31,44 +44,99 @@ h1 {
         float: right;
         height: 20px;
         width: 100px;
-        background: lightgreen;
-        padding-top: 20px;
-        
+        margin: auto auto;
+        background: #ffffff;
+        padding-left: 10px;
+        text-decoration: none;
+        border-left: 1px solid;
+        border-color: #777777;
     }
 
     .portfolio {
         float: right;
         height: 20px;
         width: 100px;
-        background: lightblue;
-        padding-top: 20px;
+        margin: auto auto;
+        background: #ffffff; 
+        padding-left: 13px;
+        padding-right: 9px;
+        text-decoration: none;
+        border-left: 1px solid;
+        border-color: #777777;
     }
 
     .about {
         float: right;
         height: 20px;
         width: 100px;
-        background: gray;
-        padding-top: 20px;
+        margin: auto auto;
+        background: #ffffff;
+        padding-left: 10px;
+        text-decoration: none;
+        
     }
 
+    /* Navi link alterations */
+    a {
+        color: #777777;
+        text-decoration: none;
+    }
+    a:link {
+        text-decoration: none;
+    }
+    
+    a:visited {
+        text-decoration: none;
+    }
+    
+    a:hover {
+        text-decoration: underline;
+    }
+    
+    a:active {
+        text-decoration: underline;
+    }
+
+    /* Begin footer */
+
 footer {
-    height: 60.8px;
-    background: lightblue;
+
+    background: #666666;
     text-align: center;
-    padding: 6px 0 0 0;
-    position: fixed;
-    bottom: 0;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     width: 100%;
+    padding-top: 40px;
+    padding-bottom: 10px;
+
 }
 
+.footerdeco {
+    width: 100%;
+    height: 20px;
+    background: #4aaaa5;
+    position: relative;
+    bottom: 60px;
+}
+
+
+
+
+
+
+/* EDIT THIS FOR CONTENT CHANGES */
 body {
-    margin: 0 0;
+    background: url("../images/rockywall.png");
 }
 
 .centermass {
     width: 960px;
     height: 500px;
-    background: pink;
-    margin: 7% auto;
+    background: #ffffff;
+    margin: 0 auto;
+    margin-top: 135px;
+    margin-bottom: 50px;
+    border: #dddddd solid 1px;
+    
+
 }
