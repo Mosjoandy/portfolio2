@@ -1,0 +1,74 @@
+header {
+    background: salmon;
+    height: 68.8px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+}
+
+h1 {
+    position: relative;
+    background: teal;
+    font-size: 60px;
+    font-weight: bold;
+    width: 400px;
+    float: left;
+    margin: 0 0;
+    left: 10%;
+
+
+}
+
+.navi {
+    position: fixed;
+    right: 0;
+    top: 0;
+    
+}
+
+    .contact {
+        float: right;
+        height: 20px;
+        width: 100px;
+        background: lightgreen;
+        padding-top: 20px;
+        
+    }
+
+    .portfolio {
+        float: right;
+        height: 20px;
+        width: 100px;
+        background: lightblue;
+        padding-top: 20px;
+    }
+
+    .about {
+        float: right;
+        height: 20px;
+        width: 100px;
+        background: gray;
+        padding-top: 20px;
+    }
+
+footer {
+    height: 60.8px;
+    background: lightblue;
+    text-align: center;
+    padding: 6px 0 0 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+body {
+    margin: 0 0;
+}
+
+.centermass {
+    width: 960px;
+    height: 500px;
+    background: pink;
+    margin: 7% auto;
+}
