@@ -1,4 +1,6 @@
-
+html {
+    height: 100%;
+}
 /* Header stretch across all */
 header {
     background: #ffffff;
@@ -172,13 +174,17 @@ p {
 
 /* Contact page */
 
+.contactsegment {
+    height: 620px;
+    background: #ffffff;
+    border: #dddddd solid 1px;
+    padding-bottom: 20px;
+}
 .contactmass {
     width: 700px;
-    height: 100%;
-    background: #ffffff;
+    height: 380px;
     margin-top: 135px;
     margin-bottom: 50px;
-    border: #dddddd solid 1px;
     padding-bottom: 20px;
     margin-left: 10%;
     margin-right: 0;
@@ -187,18 +193,19 @@ p {
 .contactforms {
     margin: 25px 25px 10px 25px;
 }
+
     .contactforms3 {
-        width: 93%;
-        padding: 12px 20px;
-        margin: 0 25px;
-        height: 300px;
-        display: inline-block;
-        border: 1px solid #ccc;
-        border-radius: 4px;
-        box-sizing: border-box;
-        font-family: Arial, Helvetica, sans-serif;
-        color: #777777;
-        line-height: 25px;
+            width: 93%;
+            padding: 12px 20px;
+            margin: 0 25px;
+            height: 200px;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #777777;
+            line-height: 25px;
     }
 
 
@@ -230,10 +237,32 @@ input[type=submit]:hover {
 
 }
 
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: #4aaaa5;
+    font-weight: bold;
+    margin: 25px 25px;
+    padding-top: 10px;
+}
+
 .socialmedia {
-    height: 400px;
-    width: 400px;
-    background: salmon;
+    height: 250px;
+    width: 350px;
+    background: #ffffff;
     position: relative;
+    bottom: 450px;
+    left: 925px;
+    text-align: center;
+    border: #dddddd solid 1px;
+
+}
+
+.contactimages {
+    float: left;
+    margin-top: 25px;
+    margin-left: 55px;
+
+
 
 }
