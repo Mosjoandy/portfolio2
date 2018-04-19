@@ -271,3 +271,110 @@ h3 {
 }
 
 /* Portfolio CSS */
+
+.centerblob {
+    width: 960px;
+    height: 825px;
+    background: #ffffff;
+    margin: 0 auto;
+    margin-top: 135px;
+    margin-bottom: 50px;
+    border: #dddddd solid 1px;
+    padding-bottom: 20px;
+}
+
+.alltheprojects {
+
+}
+.project1 {
+    position: relative;
+    margin-left: 40px;
+    margin-right: 0;
+    margin-top: 40px;
+    float: left;
+}
+
+.project2 {
+    position: relative;
+    margin-left: 40px;
+    margin-right: 0;
+    margin-top: 40px;
+    float: left;
+}
+
+.project3 {
+    position: relative;
+    margin-left: 40px;
+    margin-right: 0;
+    margin-top: 40px;
+    float: left;
+}
+
+.project4 {
+    position: relative;
+    margin-left: 40px;
+    margin-right: 0;
+    margin-top: 40px;
+    float: left;
+}
+
+.project1title {
+    position: absolute;
+    z-index: 2;
+    bottom: 20px;
+    height: 50px;
+    width: 420px;
+    padding-top: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    background: #4aaaa5;
+}
+
+.project1title:hover, .project2title:hover, .project3title:hover, .project4title:hover {
+    opacity: 0;
+    transition: opacity .5s ease-out;
+}
+
+.project2title {
+    position: absolute;
+    z-index: 2;
+    bottom: 20px;
+    height: 50px;
+    width: 420px;
+    padding-top: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    background: #4aaaa5;
+}
+
+.project3title {
+    position: absolute;
+    z-index: 2;
+    bottom: 20px;
+    height: 50px;
+    width: 420px;
+    padding-top: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    background: #4aaaa5;
+}
+
+.project4title {
+    position: absolute;
+    z-index: 2;
+    bottom: 20px;
+    height: 50px;
+    width: 420px;
+    padding-top: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    background: #4aaaa5;
+}
