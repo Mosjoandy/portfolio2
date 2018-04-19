@@ -8,6 +8,7 @@ header {
     font-family: Georgia, 'Times New Roman', Times, serif;
     height: 100px ;
     position: fixed;
+    z-index: 2;
     top: 0;
     width: 100%;
     border-bottom: solid 1px;
@@ -193,7 +194,9 @@ p {
 .contactforms {
     margin: 25px 25px 10px 25px;
 }
-
+    .contactforms2 {
+        margin: 20px 25px 10px 25px;
+    }
     .contactforms3 {
             width: 93%;
             padding: 12px 20px;
@@ -218,6 +221,7 @@ input[type=text], select {
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
+
 }
 
 input[type=submit] {
@@ -251,6 +255,7 @@ h3 {
     width: 350px;
     background: #ffffff;
     position: relative;
+    z-index: 1;
     bottom: 450px;
     left: 925px;
     text-align: center;
@@ -262,7 +267,5 @@ h3 {
     float: left;
     margin-top: 25px;
     margin-left: 55px;
-
-
 
 }
