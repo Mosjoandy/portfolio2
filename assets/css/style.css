@@ -332,6 +332,7 @@ h3 {
     background: #4aaaa5;
 }
 
+
 .project1title:hover, .project2title:hover, .project3title:hover, .project4title:hover {
     opacity: 0;
     transition: opacity .5s ease-out;
