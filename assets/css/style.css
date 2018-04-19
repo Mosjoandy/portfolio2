@@ -1,3 +1,4 @@
+
 /* Header stretch across all */
 header {
     background: #ffffff;
@@ -97,8 +98,8 @@ h1 {
         text-decoration: underline;
     }
 
-    /* Begin footer */
 
+/* Begin footer */
 footer {
 
     background: #666666;
@@ -108,8 +109,11 @@ footer {
     width: 100%;
     padding-top: 40px;
     padding-bottom: 10px;
-
+    bottom: 0;
+    min-height: 100%;
+    
 }
+
 
 .footerdeco {
     width: 100%;
@@ -119,11 +123,17 @@ footer {
     bottom: 60px;
 }
 
-/* EDIT THIS FOR CONTENT CHANGES */
+hr {
+    margin: 0 25px;
+}
+
 body {
     background: url("../images/rockywall.png");
 }
+/* EDIT THIS FOR CONTENT CHANGES */
 
+
+/* About Me Page */
 .centermass {
     width: 960px;
     height: 500px;
@@ -137,12 +147,13 @@ body {
 }
 
 h2 {
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 40px;
     color: #4aaaa5;
     font-weight: bold;
     margin: 25px 25px;
 }
+
 .profilepic {
     height: 200px;
     width: 200px;
@@ -157,4 +168,72 @@ p {
     line-height: 25px;
     margin: 0 25px 25px 25px;
     
+}
+
+/* Contact page */
+
+.contactmass {
+    width: 700px;
+    height: 100%;
+    background: #ffffff;
+    margin-top: 135px;
+    margin-bottom: 50px;
+    border: #dddddd solid 1px;
+    padding-bottom: 20px;
+    margin-left: 10%;
+    margin-right: 0;
+}
+
+.contactforms {
+    margin: 25px 25px 10px 25px;
+}
+    .contactforms3 {
+        width: 93%;
+        padding: 12px 20px;
+        margin: 0 25px;
+        height: 300px;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #777777;
+        line-height: 25px;
+    }
+
+
+/* Forms here */
+input[type=text], select {
+    width: 93%;
+    padding: 12px 20px;
+    margin: 0 25px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 30%;
+    background-color: #4aaaa5;
+    color: white;
+    font-size: 20px;
+    padding: 14px 20px;
+    margin: 10px 25px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: lightgrey;
+
+}
+
+.socialmedia {
+    height: 400px;
+    width: 400px;
+    background: salmon;
+    position: relative;
+
 }
