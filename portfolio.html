@@ -1,99 +1,130 @@
 <!DOCTYPE html>
 <html lang="en-us">
-    
+
 <head>
-    <title>Basic Portfolio</title>
-    <link rel="stylesheet" href="./assets/css/reset.css">
-    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+
+  <meta charset="UTF-8">
+  <title>Portfolio</title>
+
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 
 </head>
 
-
 <body>
-
-<!-- Header for all pages -->
-<header>
-
-    <!-- Main logo -->
-    <h1>Nicholas Chan</h1>
-
-    <!-- Links top right -->
-    <nav class="navi">
-
-        <!-- contact link -->
-        <div class="contact">
-            <a href="contact.html">Contact</a> 
-        </div> 
-
-        <!-- Portfolio link -->
-        <div class="portfolio">
-            <a href="portfolio.html">Portfolio</a> 
-        </div>  
-
-        <!-- About link -->
-        <div class="about">
-            <a href="index.html">About</a> 
-        </div>  
-
+    <!-- Navbar start -->
+    <nav class="navbar navbar-expand-sm navbar-fixed-top navbar-light navbaralltheway">
+        <div class="container">  
+            <!-- Navbar title -->
+            <span class="navbar-text align-middle navbartitle">
+                Nicholas Chan
+            </span>
+            <!-- Navbar links right -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                <a class="nav-link links" href="index.html">About</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link links" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link links linkright" href="contact.html">Contact</a>
+                </li>
+            </ul>
+            </div>
+            <!-- Navbar end -->
+        </div>
     </nav>
+        
 
-</header>
-
-<!-- Page contents (DIFFERENT)-->
-<body>
-
-    <div class="centerblob">
-
-                <!-- content title -->
-        <h2>Portfolio</h2>
-
-        <hr>
-
-        <!-- Project blocks -->
+    <div class="container indexcontainer1">
+        <!-- Site Content start -->
+        
+        <!-- Content title -->
+        <div class="row justify-content-md-center">
             
-            <!-- Project One -->
-            <div class="projects">
-                    <a href="#">
-                        <img src="assets/images/placeholder1.jpg" width="420px" alt=Project1>
+            <div class="col-xl-9 aboutme ">
+                
+                <h1>Portfolio</h1>
+                <hr>
 
-                <div class="projecttitles">Project One</div>
+            <!-- CARDS ROWS/COLUMNS START HERE -->
+            <!-- Cards row 1 -->
+                <div class="row">
+                    <div class="col-sm-6">
+                                         
+                        <div class="card bg-dark text-white">
+                                <a href="https://github.com/Mosjoandy/unit-4-game">
+                            <img class="card-img" src="assets/images/project1.png" alt="Project1">
+                            <div class="card-img-overlay">
+                                <h5 class="card-title portfoliocards projecttitles">The Crystal Miner</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6">
+                                         
+                            <div class="card bg-dark text-white">
+                                    <a href="https://github.com/Mosjoandy/TriviaGame">
+                                <img class="card-img" src="assets/images/project2.png" alt="Project2">
+                                <div class="card-img-overlay">
+                                    <h5 class="card-title portfoliocards projecttitles">Trivia Game</h5>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+
+                <br>
+                <!-- Cards row 2 -->
+                <div class="row">
+                    <div class="col-sm-6">
+                                            
+                        <div class="card bg-dark text-white">
+                            <a href="#">
+                            <img class="card-img" src="assets/images/placeholder3.jpg" alt="Project3">
+                            <div class="card-img-overlay">
+                                <h5 class="card-title portfoliocards projecttitles">Project Three</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6">
+                                                
+                        <div class="card bg-dark text-white">
+                                <a href="#">
+                            <img class="card-img" src="assets/images/placeholder4.jpg" alt="Project4">
+                            <div class="card-img-overlay">
+                                <h5 class="card-title portfoliocards projecttitles">Project Four</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- End content -->
             </div>
-
-            <!-- Project Two -->
-            <div class="projects">
-                    <a href="#">
-                        <img src="assets/images/placeholder2.jpg" width="420px" alt=Project2>
-
-                <div class="projecttitles">Project Two</div>
-            </div>
-
-            <!-- Project Three -->
-            <div class="projects">
-                    <a href="#">
-                        <img src="assets/images/placeholder3.jpg" width="420px" alt=Project3>
-
-                <div class="projecttitles">Project Three</div>
-            </div>
-
-            <!-- Project Four -->
-            <div class="projects">
-                    <a href="#">
-                        <img src="assets/images/placeholder4.jpg" width="420px" alt=Project4>
-
-                <div class="projecttitles">Project Four</div>
-            </div>
-
+        </div>
+     
+        <!-- Site Content end -->
+        </div>
+       
     </div>
-    
+    <!-- Footer title -->
+    <footer>
+        <div class="container">
+                <br>
+            <p class="text-center">Copyright ©</p>
+        </div>
+    </footer>
 </body>
 
-<!-- Footer same for all pages -->
+<!-- Boostrap JS / JQuery -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
 
-
-<footer>
-    <div class="footerdeco">
-        <!-- green bar -->
-    </div>  
-    <div class="copyrights">Copyright ©</div>
-</footer>
 </html>

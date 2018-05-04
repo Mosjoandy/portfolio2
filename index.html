@@ -1,76 +1,91 @@
 <!DOCTYPE html>
 <html lang="en-us">
-    
+
 <head>
-    <title>Basic Portfolio</title>
-    <link rel="stylesheet" href="./assets/css/reset.css">
-    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+
+  <meta charset="UTF-8">
+  <title>Portfolio</title>
+
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 
 </head>
 
-
 <body>
-
-<!-- Header for all pages -->
-<header>
-
-    <!-- Main logo -->
-    <h1>Nicholas Chan</h1>
-
-    <!-- Links top right -->
-    <nav class="navi">
-
-        <!-- contact link -->
-        <div class="contact">
-            <a href="contact.html">Contact</a> 
-        </div> 
-
-        <!-- Portfolio link -->
-        <div class="portfolio">
-                <a href="portfolio.html">Portfolio</a> 
-            </div>  
-
-        <!-- About link -->
-        <div class="about">
-            <a href="index.html">About</a> 
-        </div>  
-
+    <!-- Navbar start -->
+    <nav class="navbar navbar-expand-sm navbar-fixed-top navbar-light navbaralltheway">
+        <div class="container">  
+            <!-- Navbar title -->
+            <span class="navbar-text align-middle navbartitle">
+                Nicholas Chan
+            </span>
+            <!-- Navbar links right -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                <a class="nav-link links" href="index.html">About</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link links" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link links linkright" href="contact.html">Contact</a>
+                </li>
+            </ul>
+            </div>
+            <!-- Navbar end -->
+        </div>
     </nav>
-
-</header>
-
-<!-- Page contents (DIFFERENT)-->
-<body>
-    <div class="centermass">
-
-        <!-- content title -->
-        <h2>About Me</h2>
-
-        <hr>
-
-        <img class="profilepic" src="./assets/images/aboutpic.jpg">
         
-        <br>
 
-        <p>My name is Nicholas Chan. I am originally from Los Angeles, California. I enjoy motorcycles, rockhounding, wild edible foraging, camping, traveling, computer games, movies, and mostly anything sci-fi or fantasy-related. 
-        </p>
+    <div class="container indexcontainer1">
+        <!-- Site Content start -->
+        
+        <!-- Content title -->
+        <div class="row">
+            
+            <div class="col-xl-12 aboutme">
+                
+                <h1>About Me</h1>
+                <hr>
+            </div>
+        </div>
 
-        <p>My previous career was in Recreation Therapy, where I used recreation as my medium of therapy. I spent 6 years working and perfecting my skills in the field in an acute psychiatric facility. Using recreation therapy, I helped rehabilitate patients with mental illnesses or disorders, improving their quality of life. However, I slowly began to discover that I wanted to pursue a career I truly enjoyed. 
-        </p>
+        <!-- Content IMG and paragraph -->
+        <div class="row indexrow2">
+            <div class="col-xl-12 ">
+                <img class="profilepic" src="assets/images/aboutpic.jpg" width="300">
+            
+                <p>My name is Nicholas Chan. I am originally from Los Angeles, California. I enjoy motorcycles, rockhounding, wild edible foraging, camping, traveling, computer games, movies, and mostly anything sci-fi or fantasy-related. 
+                </p>
 
-        <p>Enter UC Berkeley Extension. They offered a coding bootcamp; an intense full-time course that taught programming. I spent my entire life on the computer. Whether it was for leisure or for work, I was constantly hammering away on a keyboard. I realized that this was something worth pursuing, combining my work and leisure into one. I dropped everything and moved away from my home in Los Angeles to the Bay Area. Being able to live nomadically helped out tremendously, making the transition relatively easy. Since then, I have been diligently working at the UC Berkeley coding bootcamp.</p>
+                <p>My previous career was in Recreation Therapy, where I used recreation as my medium of therapy. I spent 6 years working and perfecting my skills in the field in an acute psychiatric facility. Using recreation therapy, I helped rehabilitate patients with mental illnesses or disorders, improving their quality of life. However, I slowly began to discover that I wanted to pursue a career I truly enjoyed. 
+                </p>
 
+                <p>Enter UC Berkeley Extension. They offered a coding bootcamp; an intense full-time course that taught programming. I spent my entire life on the computer. Whether it was for leisure or for work, I was constantly hammering away on a keyboard. I realized that this was something worth pursuing, combining my work and leisure into one. I dropped everything and moved away from my home in Los Angeles to the Bay Area. Being able to live nomadically helped out tremendously, making the transition relatively easy. Since then, I have been diligently working at the UC Berkeley coding bootcamp.</p>
+
+            </div>
+     
+        <!-- Site Content end -->
+        </div>
+       
     </div>
-</body >
+    <!-- Footer title -->
+    <footer>
+        <div class="container">
+                <br>
+            <p class="text-center">Copyright ©</p>
+        </div>
+    </footer>
+</body>
 
-<!-- Footer same for all pages -->
-
-
-<footer>
-    <div class="footerdeco">
-        <!-- green bar -->
-    </div>  
-    <div class="copyrights">Copyright ©</div>
-</footer>
+<!-- Boostrap JS / JQuery -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
 
 </html>

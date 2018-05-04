@@ -1,104 +1,114 @@
 <!DOCTYPE html>
 <html lang="en-us">
-    
+
 <head>
-    <title>Basic Portfolio</title>
-    <link rel="stylesheet" href="./assets/css/reset.css">
-    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+
+  <meta charset="UTF-8">
+  <title>Portfolio</title>
+
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 
 </head>
 
-
 <body>
-
-<!-- Header for all pages -->
-<header>
-
-    <!-- Main logo -->
-    <h1>Nicholas Chan</h1>
-
-    <!-- Links top right -->
-    <nav class="navi">
-
-        <!-- contact link -->
-        <div class="contact">
-            <a href="./contact.html">Contact</a> 
-        </div> 
-
-        <!-- Portfolio link -->
-        <div class="portfolio">
-                <a href="portfolio.html">Portfolio</a> 
-            </div>  
-
-        <!-- About link -->
-        <div class="about">
-            <a href="./index.html">About</a> 
-        </div>  
-
-    </nav>
-
-</header>
-
-<!-- Page contents (DIFFERENT)-->
-<body>
-    <div class="contactmass">
-
-        <!-- Begin contact div -->
-        <div class="contactsegment">
-
-            <!-- content title -->
-            <h2>Contact</h2>
-
-            <hr>
-
-            <form action="#">
-                <p class="contactforms">Name:</p>
-            
-                    <input type="text" name="Name" placeholder="John Smith">
-                
-            
-                <p class="contactforms">Email:</p>
-                
-                    <input type="text" name="email" placeholder="johnsmith@gmail.com">
-                
-             
-                <p class="contactforms2">Message:</p>
-               
-                    <textarea class="contactforms3" type="text" name="message" placeholder="Write your message here"></textarea>
-
-
-                    <input type="submit" value="Submit">
-              </form> 
-
+    <!-- Navbar start -->
+    <nav class="navbar navbar-expand-sm navbar-fixed-top navbar-light navbaralltheway">
+        <div class="container">  
+            <!-- Navbar title -->
+            <span class="navbar-text align-middle navbartitle">
+                Nicholas Chan
+            </span>
+            <!-- Navbar links right -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                <a class="nav-link links" href="index.html">About</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link links" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link links linkright" href="contact.html">Contact</a>
+                </li>
+            </ul>
+            </div>
+            <!-- Navbar end -->
         </div>
+    </nav>
+        
 
+    <div class="container indexcontainer1">
+        <!-- Site Content start -->
+        
+        <!-- Content title -->
+        <div class="row ">
+            
+            <div class="col-xl-9 aboutme contactcontainer1">
+                
+                <h1>Contact Me</h1>
+
+                <hr>
+
+                <form action="#">
+                    <p class="contactforms">Name:</p>
+                
+                        <input type="text" name="Name" placeholder="John Smith">
+                    
+                
+                    <p class="contactforms">Email:</p>
+                    
+                        <input type="text" name="email" placeholder="johnsmith@gmail.com">
+                    
+                    
+                    <p class="contactforms2">Message:</p>
+                    
+                        <textarea class="contactforms3" type="text" name="message" placeholder="Write your message here"></textarea>
+    
+    
+                        <input type="submit" value="Submit">
+                </form> 
+                    
+            </div>
+
+            <div class="col-xl-3 socialmedia">
+                <div class="card text-center" style="width: 22rem;">
+                    <div class="card-body">
+                        <h3 class="card-title">Connect With Me</h3>
+                    
+                        <hr id="hr2">
+                        <div class="contactimages">
+                                <a href="https://github.com/Mosjoandy/" target="_blank"><img src="./assets/images/github.png" width="80" height="80" alt="github"></a>
+                                <a href="https://www.linkedin.com/in/nicholas-chan-ba225648/" target="_blank"><img src="./assets/images/linkedin.png" width="80" height="80" alt="linkedin"></a>
+                                <a href="https://stackexchange.com/users/13028912/nicholas-chan" target="_blank"><img src="./assets/images/stackoverflow.png" width="80" height="80" alt="stackoverflow"></a>
+                        </div>
+                        
+                    </div>
+                </div>
+
+            </div>
+        </div>
+     
+        <!-- Site Content end -->
     </div>
-
-
-
+       
+    </div>
+    <!-- Footer title -->
+    <footer>
+        <div class="container">
+                <br>
+            <p class="text-center">Copyright ©</p>
+        </div>
+    </footer>
 </body>
 
-<section class="socialmedia">
-
-    <h3>Connect With Me</h3>
-
-    <hr>
-        <div class="contactimages">
-            <a href="https://github.com/Mosjoandy/" target="_blank"><img src="./assets/images/github.png" width="80" height="80" alt="github"></a>
-            <a href="https://www.linkedin.com/in/nicholas-chan-ba225648/" target="_blank"><img src="./assets/images/linkedin.png" width="80" height="80" alt="linkedin"></a>
-            <a href="https://stackexchange.com/users/13028912/nicholas-chan" target="_blank"><img src="./assets/images/stackoverflow.png" width="80" height="80" alt="stackoverflow"></a>
-    </div>
-</section>
-
-
-<!-- Footer same for all pages -->
-
-
-<footer>
-    <div class="footerdeco">
-        <!-- green bar -->
-    </div>  
-    <div class="copyrights">Copyright ©</div>
-</footer>
+<!-- Boostrap JS / JQuery -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
 
 </html>

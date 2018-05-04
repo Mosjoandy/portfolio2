@@ -1,195 +1,125 @@
+.outline {
+    border: 1px black solid;
+}
+
 html {
-    height: 100%;
-}
-
-/* Header stretch across all */
-header {
-    background: #ffffff;
-    color: white;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    height: 100px;
-    position: fixed;
-    z-index: 2;
-    top: 0;
-    width: 100%;
-    border-bottom: solid 1px;
-    border-color: #cccccc;
-
-}
-
-h1 {
-    box-sizing: border-box;
-    background: #4aaaa5;
-    font-size: 40px;
-    text-align: center;
-    font-weight: bold;
-    width: 400px;
-    height: 100%;
-    float: left;
-    margin: 0 0;
-    padding-top: 2%;   
     position: relative;
-    left: 10%;
-
-}
-
-/* Navigation Bar */
-.navi {
-    position: fixed;
-    right: 0;
-    top: 0;
-    font-size: 20px;
-    text-align: center;
-    text-decoration: none;
-    padding-top: 2.5%;
-    padding-right: 80px;
-    
-}
-
-    .contact {
-        float: right;
-        height: 20px;
-        width: 100px;
-        margin: auto auto;
-        background: #ffffff;
-        padding-left: 10px;
-        border-left: 1px solid;
-        border-color: #cccccc;
-    }
-
-    .portfolio {
-        float: right;
-        height: 20px;
-        width: 100px;
-        margin: auto auto;
-        background: #ffffff; 
-        padding-left: 13px;
-        padding-right: 9px;
-        border-left: 1px solid;
-        border-color: #cccccc;
-        
-    }
-
-    .about {
-        float: right;
-        height: 20px;
-        width: 100px;
-        margin: auto auto;
-        background: #ffffff;
-        padding-left: 10px;
-        
-    }
-
-    /* Navi link alterations */
-    a {
-        color: #777777;
-        text-decoration: none;
-    }
-    a:link {
-        text-decoration: none;
-    }
-    
-    a:visited {
-        text-decoration: none;
-    }
-    
-    a:hover {
-        text-decoration: underline;
-    }
-    
-    a:active {
-        text-decoration: underline;
-    }
-
-
-/* Begin footer */
-footer {
-
-    background: #666666;
-    text-align: center;
-    color: white;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    width: 100%;
-    padding-top: 40px;
-    padding-bottom: 10px;
-    bottom: 0;
     min-height: 100%;
-    
-}
-
-
-.footerdeco {
-    width: 100%;
-    height: 20px;
-    background: #4aaaa5;
-    position: relative;
-    bottom: 60px;
-}
-
-hr {
-    margin: 0 25px;
 }
 
 body {
+    /* Margin bottom by footer height */
+    margin-bottom: 90px;
     background: url("../images/rockywall.png");
 }
-/* EDIT THIS FOR CONTENT CHANGES */
 
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 90px;
+    color: #ffffff;
+    border-top: 20px solid #4aaaa5;
+    background: #666666;
 
-/* About Me Page */
-.centermass {
-    width: 960px;
-    height: 500px;
-    background: #ffffff;
-    margin: 0 auto;
-    margin-top: 135px;
-    margin-bottom: 50px;
-    border: #dddddd solid 1px;
-    padding-bottom: 20px;
+}
+
+.navbar {
+    padding: 0 0 0 0;
     
 }
 
-h2 {
+    .navbar-text {
+        
+        padding-top: 20px;
+        height: 100px;
+    }
+
+.navbaralltheway {
+    background: #ffffff;
+    color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 40px;
-    color: #4aaaa5;
+    border-bottom: solid 1px #cccccc;
+
+}
+
+    .navbartitle {
+        box-sizing: border-box;
+        background: #4aaaa5;
+        color: white !important; 
+        font-size: 40px;
+        text-align: center;
+        font-weight: bold;
+        padding-left: 10px;
+        padding-right: 10px;
+        position: relative;
+        left: -15px;
+     
+    }
+           
+    /* Contact link deocrations */
+    .links {
+        font-size: 20px;
+        padding: 0;
+        border-right: 1px #dddddd solid;
+    }
+
+        element.style {
+        }
+
+        a:visited {
+            text-decoration: none;
+        }
+        a:link {
+            text-decoration: none;
+        }
+        a {
+            color: #777777;
+            text-decoration: none;
+        }
+        
+    .linkright {
+        border-right: none;
+    }
+
+.indexcontainer1 {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+h1 {
     font-weight: bold;
-    margin: 25px 25px;
+    
+}
+.aboutme {
+    background: #ffffff;
+    border-top: #dddddd solid 1px;
+    border-right: #dddddd solid 1px;
+    border-left: #dddddd solid 1px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    padding: 15px 15px;
 }
 
 .profilepic {
-    height: 200px;
-    width: 200px;
-    margin: 20px 25px 0 25px;
-    object-fit: contain;
     float: left;
+    margin-right: 20px;
+
 }
 
-p {
+.indexrow2 {
+    background: #ffffff;
+    border-bottom: #dddddd solid 1px;
+    border-right: #dddddd solid 1px;
+    border-left: #dddddd solid 1px;
+    line-height: 30px;
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
-    line-height: 25px;
-    margin: 0 25px 25px 25px;
     
 }
 
-/* Contact page */
-
-.contactsegment {
-    height: 620px;
-    background: #ffffff;
-    border: #dddddd solid 1px;
-    padding-bottom: 20px;
-}
-.contactmass {
-    width: 700px;
-    height: 380px;
-    margin-top: 135px;
-    margin-bottom: 50px;
-    padding-bottom: 20px;
-    margin-left: 10%;
-    margin-right: 0;
-}
+/* CONTACT PAGE CSS */
 
 .contactforms {
     margin: 25px 25px 10px 25px;
@@ -211,34 +141,37 @@ p {
             line-height: 25px;
     }
 
+    /* Forms here */
+    input[type=text], select {
+        width: 93%;
+        padding: 12px 20px;
+        margin: 0 25px;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
 
-/* Forms here */
-input[type=text], select {
-    width: 93%;
-    padding: 12px 20px;
-    margin: 0 25px;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
+    }
 
-}
+    input[type=submit] {
+        width: 30%;
+        background-color: #4aaaa5;
+        color: white;
+        font-size: 20px;
+        padding: 14px 20px;
+        margin: 10px 25px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
 
-input[type=submit] {
-    width: 30%;
-    background-color: #4aaaa5;
-    color: white;
-    font-size: 20px;
-    padding: 14px 20px;
-    margin: 10px 25px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
+    input[type=submit]:hover {
+        background-color: lightgrey;
 
-input[type=submit]:hover {
-    background-color: lightgrey;
+    }
 
+.card-body {
+    padding: 0 0 30px 0;
 }
 
 h3 {
@@ -246,132 +179,37 @@ h3 {
     font-size: 30px;
     color: #4aaaa5;
     font-weight: bold;
-    margin: 25px 25px;
-    padding-top: 10px;
+    margin: 15px 0;
 }
 
-.socialmedia {
-    height: 250px;
-    width: 350px;
-    background: #ffffff;
-    position: relative;
-    z-index: 1;
-    bottom: 450px;
-    left: 925px;
-    text-align: center;
-    border: #dddddd solid 1px;
-
+.contactcontainer1 {
+    border-bottom: #dddddd solid 1px;
 }
 
-.contactimages {
-    float: left;
-    margin-top: 25px;
-    margin-left: 55px;
-
+#hr2 {
+    width: 90%;
 }
 
-/* Portfolio page */
-
-.centerblob {
-    width: 960px;
-    height: 825px;
-    background: #ffffff;
-    margin: 0 auto;
-    margin-top: 135px;
-    margin-bottom: 50px;
-    border: #dddddd solid 1px;
-    padding-bottom: 20px;
-}
-
-.projects {
-    position: relative;
-    margin-left: 40px;
-    margin-right: 0;
-    margin-top: 40px;
-    float: left;
-}
-
-/* .project2 {
-    position: relative;
-    margin-left: 40px;
-    margin-right: 0;
-    margin-top: 40px;
-    float: left;
-}
-
-.project3 {
-    position: relative;
-    margin-left: 40px;
-    margin-right: 0;
-    margin-top: 40px;
-    float: left;
-}
-
-.project4 {
-    position: relative;
-    margin-left: 40px;
-    margin-right: 0;
-    margin-top: 40px;
-    float: left;
-} */
+/* PORTFOLIO PAGE CSS */
 
 .projecttitles {
-    position: absolute;
-    z-index: 2;
-    bottom: 20px;
-    height: 50px;
-    width: 420px;
-    padding-top: 20px;
+
+    width: 100%;
+    padding: 10px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 30px;
     text-align: center;
     color: white;
     background: #4aaaa5;
+
 }
 
-.projects:hover .projecttitles {
-    opacity: 0;
-    transition: opacity .5s ease-out;
+.card-img-overlay {
+    padding: 0 0;
 }
 
-/* .project2title {
-    position: absolute;
-    z-index: 2;
-    bottom: 20px;
-    height: 50px;
-    width: 420px;
-    padding-top: 20px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 30px;
-    text-align: center;
-    color: white;
-    background: #4aaaa5;
+.portfoliocards {
+    margin-top: 12rem;
 }
 
-.project3title {
-    position: absolute;
-    z-index: 2;
-    bottom: 20px;
-    height: 50px;
-    width: 420px;
-    padding-top: 20px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 30px;
-    text-align: center;
-    color: white;
-    background: #4aaaa5;
-}
 
-.project4title {
-    position: absolute;
-    z-index: 2;
-    bottom: 20px;
-    height: 50px;
-    width: 420px;
-    padding-top: 20px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 30px;
-    text-align: center;
-    color: white;
-    background: #4aaaa5;
-} */
