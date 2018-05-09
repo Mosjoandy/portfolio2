@@ -212,4 +212,10 @@ h3 {
     margin-top: 12rem;
 }
 
+.card-deck {
+    margin-bottom: 1rem;
+}
 
+.projectcards:hover {
+    border: 1px #4aaaa5 solid;
+}
